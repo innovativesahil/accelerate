@@ -24,7 +24,7 @@ public class NoteController {
         return noteRepository.findAll();
     }
 
-    // Save a note
+    // Create a note
     @PostMapping("/notes")
     public Note createNote(@Valid @RequestBody Note note) {
         return noteRepository.save(note);
