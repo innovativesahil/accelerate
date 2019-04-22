@@ -4,6 +4,7 @@ import com.sahil.accelerateproject.exception.ResourceNotFoundException;
 import com.sahil.accelerateproject.model.Note;
 import com.sahil.accelerateproject.repository.NoteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -49,5 +50,16 @@ public class NoteController {
 
         Note updatedNote = noteRepository.save(note);
         return updatedNote;
+    }
+
+    // Delete a Note
+    @DeleteMapping("/notes/{id}")
+    public ResponseEntity<?> deleteNote(@PathVariable(value = "id") Long noteId) {
+        Note note = noteRepository.findById(noteId)
+                .orElseThrow(() -> new ResourceNotFoundException("Note", "id", noteId));
+
+        noteRepository.delete(note);
+
+        return ResponseEntity.ok().build();
     }
 }
