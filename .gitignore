@@ -4,6 +4,9 @@ HELP.md
 mvnw
 mvnw.cmd
 
+### Log files ###
+*.log
+
 ### STS ###
 .apt_generated
 .classpath
