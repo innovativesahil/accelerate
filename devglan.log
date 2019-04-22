@@ -1,0 +1,24 @@
+2019-04-23 02:50:33 INFO  c.s.a.AccelerateProjectApplication - Starting AccelerateProjectApplication on Laptop-Skydiver with PID 4968 (C:\Users\innoc\IdeaProjects\accelerate-project\target\classes started by innoc in C:\Users\innoc\IdeaProjects\accelerate-project)
+2019-04-23 02:50:33 INFO  c.s.a.AccelerateProjectApplication - No active profile set, falling back to default profiles: default
+2019-04-23 02:50:33 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 02:50:33 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21ms. Found 1 repository interfaces.
+2019-04-23 02:50:34 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4edca819] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 02:50:34 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-04-23 02:50:34 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-23 02:50:34 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-23 02:50:34 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-04-23 02:50:34 INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1293 ms
+2019-04-23 02:50:34 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2019-04-23 02:50:34 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2019-04-23 02:50:34 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-04-23 02:50:34 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-04-23 02:50:35 INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@376579c9'
+2019-04-23 02:50:35 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-04-23 02:50:35 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-04-23 02:50:36 INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 02:50:36 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-04-23 02:50:36 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-04-23 02:50:36 INFO  c.s.a.AccelerateProjectApplication - Started AccelerateProjectApplication in 3.348 seconds (JVM running for 19480.236)
+2019-04-23 02:50:36 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
