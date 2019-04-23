@@ -27,9 +27,10 @@
 
 ### Future Implementations
 - [ ] Role based access
-- [ ] Authorization and Authentication using Spring OAuth2
+- [ ] Authorization and Authentication using Spring Security and OAuth2
 - [ ] Email support 
 - [ ] Job Scheduler using quartz
+- [ ] CI/CD Integration
 
 > Step wise tutorial in the future
 
