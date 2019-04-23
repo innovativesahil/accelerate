@@ -18,6 +18,13 @@
 > - The Unit tests are yet to be implemented
 > - The APIs can be tested from any rest client like POSTMAN etc.
 
+#### API Endpoints
+- GET  http://localhost:8080/notes  --- Get all notes
+- POST http://localhost:8080/notes  --- Create a new note
+- PUT  http://localhost:8080/notes/{id}  --- Update a note
+- GET  http://localhost:8080/notes/{id}  --- Get a single note
+- DELETE  http://localhost:8080/notes/{id}  --- Delete a note
+
 ## Instructions
 - Import the project as a maven project into your favourite editor and start the maven build. It should automatically download all the dependencies and add them to the classpath.
 - We need to setup a MySQL database as mentioned in the application.properties file i.e. at localhost:3306 
