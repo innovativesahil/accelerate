@@ -15,8 +15,8 @@
 - lombok ------ Build time dependency to reduce boilerplate code
 
 ### Testing
-> The Unit tests are yet to be implemented
-> The APIs can be tested from any rest client like POSTMAN etc.
+> - The Unit tests are yet to be implemented
+> - The APIs can be tested from any rest client like POSTMAN etc.
 
 ## Instructions
 - Import the project as a maven project into your favourite editor and start the maven build. It should automatically download all the dependencies and add them to the classpath.
